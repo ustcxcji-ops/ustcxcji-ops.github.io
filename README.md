@@ -1,1 +1,1 @@
-# LIGHT.github.io
+# blog

@@ -141,7 +141,9 @@ home_banner:
       '希望有个如你一般的人 贯彻未来 数遍生命的公路牌 ————《从你的全世界路过》',
       '一身转战三千里 一剑曾当百万师 ————《老将行》',
       '遇事不决 可问春风 春风不解 即随吾心',
-      '科研的意义不在遍历所有命题 而在为一个命题燃尽所有灵感'
+      '科研的意义不在遍历所有命题 而在为一个命题燃尽所有灵感',
+      '当你不断奔波时 为忘了停下看看风景 有时你追求的 往往就在身边',
+      '人生一世 草木一春 来时风雨 去似微尘'
     ] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
@@ -248,7 +250,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -262,7 +264,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    announcement: 欢迎来到我的杂物堆 希望看到大家留言～～
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       # Archives: 
@@ -428,7 +430,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2026/8/14 00:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message

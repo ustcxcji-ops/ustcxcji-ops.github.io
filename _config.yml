@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: LIGHT
-subtitle: ''
+title: LIGHT's essay 
+subtitle: 见闻 · 思考 · 探索
 description: ''
 keywords:
 author: LIGHT
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

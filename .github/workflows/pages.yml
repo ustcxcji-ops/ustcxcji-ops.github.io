@@ -32,11 +32,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
+      - name: Setup Pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: '3.11'
 
       - name: Build Hexo
         run: npx hexo generate
+
+      - name: Check Pandoc version
+        run: pandoc --version | head -n 1
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
